@@ -7,6 +7,13 @@ body {
     color: #333;
 }
 
+/* Estilizando os nomes soja, trigo e milho na cor verde */
+.soja, .trigo, .milho {
+    color: green;  /* Cor verde */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 1.2em; /* Aumenta um pouco o tamanho da fonte */
+}
+
 header {
     background-color: #4CAF50;
     color: white;

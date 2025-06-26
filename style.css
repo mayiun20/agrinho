@@ -7,11 +7,23 @@ body {
     color: #333;
 }
 
-/* Estilizando os nomes soja, trigo e milho na cor verde */
-.soja, .trigo, .milho {
-    color: green;  /* Cor verde */
-    font-weight: bold; /* Deixa o texto em negrito */
-    font-size: 1.2em; /* Aumenta um pouco o tamanho da fonte */
+/* Contêiner para os textos */
+.retroverde {
+    background-color: green;  /* Cor de fundo verde */
+    padding: 20px;  /* Adiciona espaço ao redor do texto */
+    border-radius: 8px;  /* Deixa os cantos do retângulo arredondados */
+    display: inline-block;  /* Faz o contêiner ter o tamanho adequado ao conteúdo */
+    text-align: center;  /* Centraliza o texto dentro do retângulo */
+}
+
+/* Estilizando os nomes dentro do retângulo */
+.retroverde p {
+    color: white;  /* Cor do texto em branco para contrastar com o verde */
+    font-weight: bold;  /* Deixa o texto em negrito */
+    font-size: 1.5em;  /* Aumenta o tamanho da fonte */
+    margin: 0;  /* Remove a margem padrão do parágrafo */
+}
+
 }
 
 header {

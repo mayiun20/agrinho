@@ -7,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Contêiner para os textos */
 .retroverde {
     background-color: green;  /* Cor de fundo verde */
     padding: 20px;  /* Adiciona espaço ao redor do texto */
@@ -21,6 +22,8 @@ body {
     font-weight: bold;  /* Deixa o texto em negrito */
     font-size: 1.5em;  /* Aumenta o tamanho da fonte */
     margin: 0;  /* Remove a margem padrão do parágrafo */
+}
+
 }
 
 header {
